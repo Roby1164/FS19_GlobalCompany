@@ -21,7 +21,8 @@
 		<e k="GC_gui_modHubLink" v="ModHub Download Link"/>
 		<e k="GC_gui_buttons_nextWarning" v="Prossimo avviso"/>
 		<e k="GC_gui_buttons_nextConflict" v="Prossimo conflitto"/>
-
+		<e k="GC_gui_buttons_accept" v="Conferma"/>
+		
 		<!-- General -->
 		<e k="GC_category_globalCompanyPlaceable" v="GlobalCompany"/>
 
@@ -161,10 +162,13 @@ Prezzo:  %s"/>
 		<e k="GC_globalMarket_btn_ok" v="Conferma"/>
 		<e k="GC_globalMarket_btn_startLoad" v="Inizia a caricare"/>
 		
-		<e k="GC_globalMarket_header3" v="Mercato globale 2020 - outsourcing"/>
+		<e k="GC_globalMarket_header3" v="Mercato globale 2020 - Esternalizzare"/>
 		<e k="GC_globalMarket_headerInfo3" v="Scegli cosa caricare"/>
 		<e k="GC_globalMarket_btn_min" v="Minimo"/>
 		<e k="GC_globalMarket_btn_max" v="Massimo"/>
+		
+		<e k="GC_globalMarket_header4" v="Globaler Markt 2020 - Trasferimento del veicolo"/>
+		<e k="GC_globalMarket_headerInfo4" v="Informazioni sull'acquisto del veicolo"/>
 
 		<e k="GC_globalMarket_txt_amount" v="Lotto"/>
 		<e k="GC_globalMarket_txt_money" v="Valore"/>
@@ -175,11 +179,19 @@ Prezzo:  %s"/>
 		<e k="GC_globalMarket_tbl_header_bales" v="Balla"/>
 		<e k="GC_globalMarket_tbl_header_price" v="Prezzo attuale"/>
 		<e k="GC_globalMarket_tbl_header_price2" v="Prezzo attuale / 1000 Litri"/>
-		<e k="GC_globalMarket_btn_outsource" v="Outsourcing"/>
+		<e k="GC_globalMarket_btn_outsource" v="Esternalizzare"/>
 		<e k="GC_globalMarket_btn_outsourceBale1" v="Rotoballe"/>
 		<e k="GC_globalMarket_btn_outsourceBale2" v="Balle quadrate"/>
 		<e k="GC_globalMarket_btn_sell" v="Vendita"/>
 		<e k="GC_globalMarket_btn_buy" v="Acquista   "/>
+
+		<e k="GC_globalMarket_tbl_header_preview" v="anteprima"/>
+		<e k="GC_globalMarket_tbl_header_name" v="Nome"/>
+		<e k="GC_globalMarket_tbl_header_age" v="Età"/>
+		<e k="GC_globalMarket_tbl_header_operationTime" v="Tempo di operatività"/>
+		<e k="GC_globalMarket_tbl_header_price3" v="Prezzo"/>
+		<e k="GC_globalMarket_txt_hours" v="%s Ore"/>
+		<e k="GC_globalMarket_txt_days" v="%s Giorni"/>
 
 		<e k="GC_globalMarket_externIsOffline" v="Avvia il software esterno richiesto in modo da poter acquistare beni o vendere i tuoi beni."/>
 		<e k="GC_globalMarket_externIsFalseVersion" v="Non hai l'ultima versione del software esterno."/>
@@ -188,6 +200,33 @@ Prezzo:  %s"/>
 		<e k="GC_globalMarket_storeItem_squareBaleGrass" v="Balle quadrate di erba"/>
 		<e k="GC_globalMarket_storeItem_roundBaleGrass" v="Balle rotonde di erba"/>
 		<e k="GC_globalMarket_storeItem_cotton" v="di cotone"/>
+
+
+		<!-- AnimalFeeder -->
+		<e k="GC_animalFeeder_backupTitie" v="Sistema di alimentazione"/>
+		<e k="GC_animalFeeder_openGui" v="Apri il pannello di sistema"/>
+		<e k="GC_animalFeeder_gui_info" v="Gestisci qui il sistema di alimentazione!"/>
+		<e k="GC_animalFeeder_gui_FeedingTime_title" v="Orario alimentazione"/>
+		<e k="GC_animalFeeder_gui_startManual" v="Avviare il sistema manualmente"/>
+		<e k="GC_animalFeeder_gui_hist_header" v="Statistica"/>
+		<e k="GC_animalFeeder_gui_hist_text1" v="Consumo totale ieri:"/>
+		<e k="GC_animalFeeder_gui_hist_text2" v="Consumo bunker ieri %s:"/>
+		<e k="GC_animalFeeder_gui_hist_val" v="%s Litri"/>
+		<e k="GC_animalFeeder_gui_hist_time" v="%s:00 Ore"/>
+		<e k="GC_animalFeeder_gui_demandPercent" v="Più alimentazione:"/>
+		<e k="GC_animalFeeder_gui_bunker_title" v="Panoramica del bunker"/>
+		<e k="GC_animalFeeder_gui_bunker_name" v="Bunker %s"/>
+		<e k="GC_animalFeeder_gui_mixingRatio_title" v="Rapporto di miscelazione"/>
+		<e k="GC_animalFeeder_gui_mixingRatio_warnung" v="Il rapporto di miscelazione deve essere del 100%!"/>
+		<e k="GC_animalFeeder_gui_literPerDrive" v="Quantità in consegna:"/>
+		<e k="GC_animalFeeder_gui_warningHeader" v="Sistemi di alimentazione - avvertenze (%s)"/>
+		<e k="GC_animalFeeder_gui_warningText_bunkerEmpty" v="%s: %s vuoto!"/>
+		<e k="GC_animalFeeder_gui_warningText_noConnectedAnimalTrough" v="Nessun trogolo trovato!"/>
+		<e k="GC_animalFeeder_gui_warningText_toHighDeltaForTroug" v="Quantità di riempimento eccessiva!"/>
+		
+		<!-- FarmStarter -->
+		<e k="GC_farmstarter_header" v="Scegli il tuo cortile di partenza!"/>
+		
 		
 		<!-- Market -->
 		<!--e k="GC_market_showDetails" v="Dettaglio"/>
